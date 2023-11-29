@@ -1,0 +1,417 @@
+/* PAGINA DE CATALOGO */
+.row .navbar{
+    background: linear-gradient(90deg,  rgb(128, 21, 228)0%, rgb(118, 27, 204) 35%,  rgb(98, 16, 174) 100%);
+    height: 75px;
+  }
+  #Bsob, #Bcat{
+    background: linear-gradient(90deg, rgb(64, 6, 119) 0%, rgb(83, 13, 149) 35%,  rgb(129, 22, 229) 100%)
+  }
+  .collapse h2{
+    color: #fff;
+    margin-left: 12px;
+    margin-top: 3px;
+    text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.384);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .nav-item a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  .navbar-nav{
+    margin-left: 13%;
+  }
+  .nav-item a:nth-child(2){
+    margin-left: 2px;
+  }
+  .nav-item a i{
+    color:rgb(75, 9, 141);
+    margin-left: -10px;
+  }
+  #cads i{
+    margin-left: 10px;
+  }
+  form .btn{
+    background-color:rgb(35, 214, 35);
+    color: rgb(66, 65, 65);
+    margin-left: -3px !important;
+    height: 40px;
+  }
+  form .btn:hover{
+    color:black ;
+    background-color:rgb(35, 214, 35);
+    border: 1px solid rgb(14, 102, 14);
+  }
+  .form-control{
+    width: 370px !important;
+    margin-left: 90px;
+  }
+  .bi-search{
+    right: 125px;
+    color: rgb(80, 79, 79) !important;
+    font-size: 19px !important;
+    margin-top: 1.5px;
+    margin-left: 6px;
+  }
+  .coll{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 25px;
+    height: auto;
+  }
+  .con{
+    width: 95%;
+    margin-left: 2.5%;
+    height: 160px;
+    margin-top: 30px;
+    border-radius: 8px;
+    background-image: url(../image/banner_3.0.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .bi{
+    color:rgb(75, 9, 141);
+    font-size: 32px;
+    -webkit-text-stroke: 0.2px black;
+    margin-right: -3px;
+  }
+  #offcanvasScrolling{
+    background: linear-gradient(90deg,  rgb(128, 21, 228)0%, rgb(118, 27, 204) 35%,  rgb(98, 16, 174) 100%);
+  }
+  .sec01{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 55px;
+    width: 100%;
+  }
+  #logBtn{
+    background-color: rgba(250, 235, 215, 0);
+    border: none;
+  }
+  .sec01 .card{
+    background: linear-gradient(90deg,  rgb(28, 28, 28)0%, rgb(39, 37, 40) 35%,  rgb(45, 49, 51) 100%);
+    width: 265px !important;
+    margin-left: 2px;
+    transition: .35s;
+    cursor: pointer;
+  }
+  .sec01 .card img{
+    margin-top: 5px;
+  }
+  .sec01 .row:hover > :not(:hover){
+    opacity: .4;
+    transform: scale(0.9);
+  }
+  .sec01 .card:hover{
+    .btn{
+      display: block !important;
+    }
+  }
+  .card-title{
+    color:white  !important;
+  }
+   .sec01 .card-body .btn{
+    background-color: rgb(99, 122, 161) !important;
+    border: none !important;
+    width: 100%;
+    display: none !important;
+  }
+  .card p{
+    color: rgb(93, 18, 158) ;
+  }
+  .carousel-control-prev{
+    margin-top: -50px;
+    margin-left: -80px;
+  }
+  .carousel-control-next{
+    margin-top: -50px;
+    margin-right: -80px;
+  }
+  .Subtitle{
+    display: flex;
+    justify-content: center;
+    color:fuchsia;
+    width: 90%;
+    margin-left: 5%;
+    border-top: 2px solid fuchsia;
+    border-bottom: 2px solid fuchsia;
+    margin-top: 60px;
+  }
+  .Subtitle .btn-group .btn{
+    color: fuchsia !important;
+    border: none;
+    margin-left: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+  }
+  .Subtitle .btn-group .dropdown-menu{
+    background: linear-gradient(90deg,  rgb(128, 21, 228)0%, rgb(118, 27, 204) 35%,  rgb(98, 16, 174) 100%);
+  }
+  .Subtitle .dropdown-menu .dropdown-item{
+    color: #fff;
+  }
+  .Subtitle .dropdown-menu .dropdown-item:hover{
+    background-color:mediumpurple ;
+  }
+  .sec02{
+    width: 98%;
+    margin-left: 1%;
+    height: auto; 
+  }
+  .sec02 .row{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center ; 
+  }
+  .sec02 .card{
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 280px !important;
+    background: linear-gradient(90deg, rgb(64, 6, 119) 0%, rgb(89, 16, 158) 35%,  rgb(106, 11, 196) 100%);
+    border: none;
+  }
+  .sec02 .card-body{
+    display: flex;
+  }
+  .sec02 .card:hover{
+    border-top: 3.5px solid fuchsia;
+    border-bottom: 3.5px solid fuchsia;
+    .card-body p{
+      display: block;
+    }
+  }
+  .sec02 .card-body h5{
+    color: rgb(37, 34, 34) !important;
+  }
+  .sec02 .card-body p{
+    color: gold;
+    display: none;
+    font-size: 12px;
+    margin-top: 3px;
+    position: relative;
+    left: 60px;
+  }
+  .sec02 .card-body i{
+    color: gold !important;
+    font-size: 15px;
+    margin-top: 20px !important;
+  }
+  .sec02 .card img{
+    margin-top: 7px;
+    width: 250px;
+    margin-left: 5px;
+  }
+  .nextWindow{
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+  }
+  .nextWindow nav .page-link{
+    background-color: rgba(0, 0, 0, 0) ;
+    border:none;
+    color: white;
+    box-shadow: 3px 5px 1px rgba(0, 0, 0, 0.147);
+  }
+  footer{
+    background: linear-gradient(90deg,  rgb(128, 21, 228)0%, rgb(118, 27, 204) 35%,  rgb(98, 16, 174) 100%); 
+    width: 100%;
+    height: 385px;
+    margin-top: 55px;
+  }
+  .foHelp{
+    width: 100%;
+    height: 300px;
+    display: flex;
+  }
+  .foHelp:nth-child(1){
+    margin-left: 30px;
+  }
+  .fac{
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+  }
+  .fac :nth-child(2){
+    margin-top: 12px;
+  }
+  .fac b{
+    font-size: 15px;
+  }
+  .fac a{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 5px;
+    font-size: 13px;
+  }
+  .fac a:hover{
+    text-decoration: underline #fff ;
+  }
+  .fac .sub{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  .atd{
+    color: #fff;
+    background-color: rgb(38, 37, 37);
+  }
+  .fic{
+    color: #fff;
+    margin-left: 60px;
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+  }
+  .fic form{
+    margin-top: 15px;
+  }
+  .fic form input{
+    border: 0.5px;
+    border-radius: 3px;
+  }
+  .fic form :nth-child(2){
+    width: 80px;
+
+  }
+  #sub02{
+    margin-top: 40px;
+  }
+  #sub02 p{
+    color: black;
+  }
+  #sub02 .mae{
+    width: 300px;
+    height: 80px;
+    display: flex;
+    margin-top: 20px;
+  }
+  #sub02 .mae .filho{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-top: 5px;
+    
+  }
+  #sub02 .mae .filho img{
+    width: 30px;
+    height: 30px;
+  }
+  #fic02{
+    color: black;
+    margin-left: 90px;
+  }
+  #fic02 .pay{
+    margin-top: 10px;
+    width: 170px;
+    height: 70px;
+  } 
+  .pay img{
+    max-width: 100%;
+    max-height:100% ;
+  }
+  #fic02 .sub{
+    margin-top: 20px;
+  }
+  #fic02 .sub .store{
+    width: 220px;
+  }
+  #fic02 .sub .store img{
+    width: 220px;
+    height: 55px;
+  }
+  .foItem{
+    width: 100%;
+    height: 90px;
+    border-top: 1px double #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .foItem p {
+    margin-left: 30px;
+    color: black;
+    font-family:sans-serif;
+  }
+
+  /* PAGINA DE SOBRE */
+
+.secSobre{
+  width: 95%;
+  margin-left: 2.5%;
+  height: auto;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+.ifSobre, .ifIcon{
+  width: 630px;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 35px;
+}
+.ifSobre{
+  box-shadow: 0.5px 0.5px 15px #ffffffbb;
+  margin-left: 5%;
+  width: 640px;
+}
+.ifIcon{
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ifSobre p{
+  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 17px;
+}
+.logo{
+  width: 400px;
+  height: 400px;
+}
+.logo img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.conjunto{
+  text-align: center;
+  height: 550px;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 15px #ffffffbb;
+}
+.conjunto h1{
+  margin-top: 20px;
+  text-shadow: 3px 5px 1px rgba(0, 0, 0, 0.568);
+}
+
+/* PAGINA POLITICA E PRIVACIDADE */
+
+#Bpol{
+  background-color: #fff !important;
+}
+.pol{
+  width: 92%;
+  margin-left: 4%;
+  height: 350px;
+  margin-top: 55px;
+  background-color: darkseagreen;
+}
+.pol figure{
+  width: 190px;
+  height: 190px;
+}
+.pol figure img{
+   max-width: 100%;
+   max-height: 100%;
+}
